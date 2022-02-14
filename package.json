@@ -1,0 +1,19 @@
+{
+  "name": "supply-chain",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "ganache": "ganache-cli -m \"plastic fox right orphan position supreme lucky dumb desert amused punch what\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "@truffle/hdwallet-provider": "^2.0.3",
+    "web3": "^1.7.0"
+  }
+}
